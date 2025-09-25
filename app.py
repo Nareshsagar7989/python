@@ -60,7 +60,7 @@
 a = [78 ,'john' ,90.5 ]
 
 # set doesnot support indexing but can be done by converting to other type list
-b = {89 ,90 }
+'''b = {89 ,90 }
 c = (23 ,45 ,67 )
 d = {
     "name" : "john",
@@ -70,3 +70,10 @@ print(a[1])
 print(list(b)[1])
 print(c[2])
 print(d["name"])
+'''
+a = int(input('enter the num:'))
+if(a % 2 == 0):
+    print('even')
+else:
+    print('odd')
+
