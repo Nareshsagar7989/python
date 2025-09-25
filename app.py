@@ -3,7 +3,70 @@
 # a = 'hello world'
 # print(a)
 
-a =777
-b = 56
-c,d = a,b
-print(c,d)
+# a =777
+# b = 56
+# c,d = a,b
+# print(c,d)
+
+# task
+# assingn 3 values and multiply each adjacent values
+# x,y,z = 56,90,34
+# x,y,z = 56*90,90*34,34*56
+# print(x,y,z)
+
+# name = 'nareshsagar'
+# age = 20
+# phone = 7989053026
+# student = True
+# print(type(name))
+# print(type(age))
+# print(type(phone))
+# print(type(student))
+
+# d = int(input('enter number of days:'))
+# hours = 24 * d
+# min = hours * 60
+# seconds = min * 60
+# print(f'{d} days equals to {hours} hours and equals to {min} minutes and equals to {seconds} seconds')
+
+# n = int(input("enter the number of hours:"))
+# min = n * 60
+# print(f'u entered {n} hours and the total minutes equals to: {min} minutes')
+
+# age = int(input('enter your age:'))
+# days = age * 365
+# print(f'you entered the age as {age} years,equal to {days} days')
+
+
+# tuple
+# tuple = (45,78,99)
+# print(tuple)
+
+#set
+# set = { 45, 78, 90}
+# print(tuple)
+
+#dictionary
+# dict = {
+#     'name' : 'naresh',
+#     'age' : 20
+# }
+# print(dict)
+
+# list
+# list = ['naresh' ,'ajay' ,20 ,22 ]
+# print(f'{list},{type(list)}') 
+
+a = [78 ,'john' ,90.5 ]
+
+# set doesnot support indexing but can be done by converting to other type list
+b = {89 ,90 }
+c = (23 ,45 ,67 )
+d = {
+    "name" : "john",
+    "age" : 23
+}
+print(a[1])
+print(list(b)[1])
+print(c[2])
+print(d["name"])
