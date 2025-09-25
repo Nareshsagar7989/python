@@ -71,9 +71,86 @@ print(list(b)[1])
 print(c[2])
 print(d["name"])
 '''
-a = int(input('enter the num:'))
+# code to check whether a number is even or odd
+'''a = int(input('enter the num:'))
 if(a % 2 == 0):
     print('even')
 else:
     print('odd')
+'''
+'''a = int(input('enter a:'))
+print('even' if a % 2 == 0 else 'odd')
+percentage = int(input('enter the percentage: '))'''
+'''if percentage >= 75:
+    print('eligible for program')
+else:
+    print('not eligible for program')'''
 
+# print('you can enter the program' if percentage >= 75 else "u r not allowed")
+
+'''username = 'shiva'
+password = 'shiva@370'
+a = input('enter username: ')
+b = input('enter password: ')
+if a == username and b == password:
+    print('login successful')
+else :
+    print('incorrect username or password')'''
+
+# range
+
+'''a = range(4)
+b = list(a)
+for i in a:
+    print(i,end ="\n")'''
+#list
+
+'''a = [78 ,34 ,12 ,90 ,33 ,21 ]
+for i in a:
+    if i % 2 == 0:
+        print(f'even :{i}')
+    else:
+        print(f'odd :{i}')'''
+
+'''a = [1,2,3,4,1,4,5]
+c = []
+b = len(a)
+for i in a:
+    for j in range(i+1,b):
+        if a[i] == a[j]:
+           print(a[i])'''
+
+
+#while statement
+# a = int(input('enter number:'))
+'''a = 0
+while a < 5:
+    print("hello")
+    a += 1'''
+
+#functions
+
+'''def greet(name):
+    # print(f'hello {name}')
+    t = print(f'hello {name}')
+name = input('enter the name')
+print(t)'''
+
+name = input('enter the name: ')
+age = int(input('enter the age: '))
+height = int(input('enter the height in cm: '))
+height_in_meters = float(height/100)
+weight = float(input('enter the weight: '))
+
+bmi = weight/(height_in_meters)**2
+print(bmi)
+if bmi < 18.5:
+    print('under weight')
+elif bmi >= 18.5 and bmi <= 24.9:
+    print('healthy weight')
+elif bmi >= 25.0 and bmi <=29.9:
+    print('over weight')
+elif bmi >= 30.0 and bmi >= 34.9:
+    print('obesity')
+else:
+    print('severe obesity')
