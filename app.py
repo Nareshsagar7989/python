@@ -136,7 +136,7 @@ while a < 5:
 name = input('enter the name')
 print(t)'''
 
-name = input('enter the name: ')
+'''name = input('enter the name: ')
 age = int(input('enter the age: '))
 height = int(input('enter the height in cm: '))
 height_in_meters = float(height/100)
@@ -153,4 +153,20 @@ elif bmi >= 25.0 and bmi <=29.9:
 elif bmi >= 30.0 and bmi >= 34.9:
     print('obesity')
 else:
-    print('severe obesity')
+    print('severe obesity')'''
+
+'''x = y = z = 25
+print(x**2 + y**2 + z**2)'''
+
+#area of triangle 
+'''b = int(input('enter base: '))
+h = int(input('enter height: '))
+area = 0.5 *b*h
+print(area)'''
+
+# exception handling
+
+try:
+    x = 10/0
+except ZeroDivisionError:
+    print('error:division by zero is not allowed')
