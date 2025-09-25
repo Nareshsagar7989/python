@@ -166,7 +166,16 @@ print(area)'''
 
 # exception handling
 
-try:
+'''try:
     x = 10/0
 except ZeroDivisionError:
-    print('error:division by zero is not allowed')
+    print('error:division by zero is not allowed')'''
+
+#modules
+
+def add(a,b):
+    return print(a+b)
+add(45,46)
+
+import math 
+print(math.pi)
